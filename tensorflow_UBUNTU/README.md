@@ -13,9 +13,9 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
    
    <img src="https://github.com/user-attachments/assets/3c56e43e-0690-4536-892e-5a5de7a4e6b2">
 
-2. Mở `Command Prompt` và gõ lệnh `nvidia-smi` để xem đã nhận được GPU chưa, lưu ý 2 thông số là `Tên GPU` và `Phieen bản CUDA`
+2. Mở `Command Prompt` và gõ lệnh `nvidia-smi` để xem đã nhận được GPU chưa, lưu ý 2 thông số là `Tên GPU` và `Phiên bản CUDA`
 
-   <img src="https://github.com/user-attachments/assets/fc412811-4cc8-4037-a148-4b9556077c5e">
+   <img src="https://github.com/user-attachments/assets/b189a53b-fde1-4c2c-a778-c43c9418632d">
 
 3. Nếu muốn thay đổi phiên bản CUDA hay chưa có CUDA thì tải thêm `CUDA Tootkit`
 
@@ -26,8 +26,7 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
 1. Mở `Command Prompt` với `Run as administrator` và gõ lệnh sau: `wsl --install`
 
-
-   <img src="https://github.com/user-attachments/assets/b189a53b-fde1-4c2c-a778-c43c9418632d">
+   <img src="https://github.com/user-attachments/assets/8fe30b77-ce7c-4ccd-93c2-f321a52cb4f8">
 
 2. Sau khi chạy xong thì khởi động lại thiết bị và mở `wsl` 
 
@@ -48,11 +47,28 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
 ## Cài đặt Tensorflow GPU  
 1. Tạo một thư mục trong `Linux` và `Add folder to workspace`  vào Visual studio code
-2. Mở `Terrminal` và chạy lệnh sau `python3 -m venv .Tensorflow_project --prompt="tensorflow_gpu"` để tạo môi trường ảo  
+
+   <img src="https://github.com/user-attachments/assets/f30ae6bf-6e90-4f3c-aa89-7e77e78813cf">
+
+2. Chạy lệnh này `apt install python3.10-venv` để cài đặt thư viện môi trường ảo của Python
+
+   <img src="https://github.com/user-attachments/assets/5e232e5b-bc47-4daa-8549-d148605e07f4">
+   
+3. Mở `Terrminal` và chạy lệnh sau `python3 -m venv .Tensorflow_project --prompt="tensorflow_gpu"` để tạo môi trường ảo  
 
    <img src="https://github.com/user-attachments/assets/80548539-79f2-409d-b815-968145c7002a">
 
-   Nếu gặp lỗi `The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command` thì cần phải chạy lệnh này trước `apt install python3.10-venv`
+4. Sau khi chạy xong thì sẽ xuất hiện 1 thư mục mới có tên `.Tensorflow_project` với cấu trúc như sau:
+
+   <img src="https://github.com/user-attachments/assets/67c6a35a-b717-4ccb-8f34-101de7fa555c">
+
+5. Để kich hoạt môi trường ảo thì chạy lệnh `source .Tensorflow_project/bin/activate`
+
+   <img src="https://github.com/user-attachments/assets/a23e4eb4-cb7e-4009-ba48-e99f3453880d">
+
+6. 
+
+
 
 
 
@@ -86,3 +102,4 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
    
    <img src="https://github.com/user-attachments/assets/a2f7a78f-e29a-4437-886a-9d366db3f1bd">
    
+2. Nếu gặp lỗi `The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command` thì cần phải chạy lệnh này trước `apt install python3.10-venv` để cài đặt `python 3.10`

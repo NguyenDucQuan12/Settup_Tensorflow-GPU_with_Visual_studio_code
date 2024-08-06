@@ -79,7 +79,9 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
    <img src="https://github.com/user-attachments/assets/15b373ce-43d0-49df-8bdb-7bde43e0344b">
 
+8. Kiểm tra xem GPU đã được chạy chưa, bằng cách chạy code và mở `Task Manager` ra vào mục `Performance`
 
+   <img src="https://github.com/user-attachments/assets/d21a447c-29dd-441c-b94e-ee103772ba4a">
 
 ## Một số lỗi hay gặp  
 1. ```

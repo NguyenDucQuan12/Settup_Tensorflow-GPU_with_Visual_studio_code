@@ -35,15 +35,13 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 3. Thực hiện nhập tên `username` và `password`, lưu ý: password không hiển thị khi nhập, nó sẽ đen xì  
    Chưa có ảnh, thêm ảnh vào đường dẫn bên dưới khi nào có cơ hội:
    <img src="">
-4. Sau khi cài đặt tên và password thì mở `visual studio code` bằng lệnh `code .` để mwor thưu mục hiện tại
-
+4. Sau khi cài đặt tên và password thì mở `visual studio code` bằng lệnh `code .` để mở thư mục hiện tại
 
    <img src="https://github.com/user-attachments/assets/e7ecf970-777e-4f2b-9102-4e1155aa8c63">
    
 5. Cài đặt extension `Remote Development` của Microsoft  
 
   <img src="https://github.com/user-attachments/assets/37603b0a-5f84-4d4e-9f59-a8407ca8bf71">
-
 
 ## Cài đặt Tensorflow GPU  
 1. Tạo một thư mục trong `Linux` và `Add folder to workspace`  vào Visual studio code
@@ -52,7 +50,7 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
 2. Chạy lệnh này `apt install python3.10-venv` để cài đặt thư viện môi trường ảo của Python
 
-   <img src="https://github.com/user-attachments/assets/5e232e5b-bc47-4daa-8549-d148605e07f4">
+   <img src="https://github.com/user-attachments/assets/a23e4eb4-cb7e-4009-ba48-e99f3453880d">
    
 3. Mở `Terrminal` và chạy lệnh sau `python3 -m venv .Tensorflow_project --prompt="tensorflow_gpu"` để tạo môi trường ảo  
 
@@ -62,13 +60,17 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
    <img src="https://github.com/user-attachments/assets/67c6a35a-b717-4ccb-8f34-101de7fa555c">
 
-5. Để kich hoạt môi trường ảo thì chạy lệnh `source .Tensorflow_project/bin/activate`
+5. Để kich hoạt môi trường ảo thì chạy lệnh `source .Tensorflow_project/bin/activate` và chạy thử với lệnh `pip list`
 
    <img src="https://github.com/user-attachments/assets/a23e4eb4-cb7e-4009-ba48-e99f3453880d">
 
-6. 
+6. Cài đặt `Tensorflow GPU` bằng câu lệnh `pip install tensorflow[and-cuda]`
 
+   <img src="https://github.com/user-attachments/assets/1ea0afbf-f4ce-49f8-989f-cb20efbaad27">
 
+7. Để chạy file python thì sử dụng câu lệnh `python path/to/file.py`
+
+   <img src="https://github.com/user-attachments/assets/15b373ce-43d0-49df-8bdb-7bde43e0344b">
 
 
 
@@ -96,10 +98,25 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
    ```
    Sau đó cấu hình lại và cập nhật rồi chạy lại câu lệnh mà mình mong muốn:
    ```
-   sudo apt update
+   sudo apt update  
    sudo apt install python3.10-venv
    ```
    
    <img src="https://github.com/user-attachments/assets/a2f7a78f-e29a-4437-886a-9d366db3f1bd">
    
 2. Nếu gặp lỗi `The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command` thì cần phải chạy lệnh này trước `apt install python3.10-venv` để cài đặt `python 3.10`
+
+3. Cài đặt `OpenCV`:
+   Đầu tiên chạy lệnh cài đặt opencv `pip install opencv-python`
+
+   <img src="https://github.com/user-attachments/assets/eaf38075-0aeb-478b-9a54-91fd8f277a6b">
+
+   Sau đó chạy 2 lệnh sau thì sử dụng bình thường
+   ```
+   sudo apt-get install libgl1-mesa-glx  
+   sudo apt-get install xdg-utils
+   ```
+
+   <img src="https://github.com/user-attachments/assets/3de96705-da90-4f0c-b9b4-6d048ac5fa20">
+
+ 

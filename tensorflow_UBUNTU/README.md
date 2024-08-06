@@ -82,6 +82,12 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 8. Kiểm tra xem GPU đã được chạy chưa, bằng cách chạy code và mở `Task Manager` ra vào mục `Performance`
 
    <img src="https://github.com/user-attachments/assets/d21a447c-29dd-441c-b94e-ee103772ba4a">
+   
+9. Khi đóng `Vissual studio code` thì sẽ hiện câu hỏi có muốn lưu workspace không thì nhất có, nhớ copy dường dẫn:
+   Ví dụ: `/home/ducquan/File_Code.code-workspace`
+   Từ lần sau mở thì chỉ cần mở `WSL` và gõ lệnh `cd /home/ducquan/File_Code` và gõ `code .` là sẽ vào workspace đã lưu
+
+   <img src="https://github.com/user-attachments/assets/ab5f2bef-87cb-4dce-ae7d-4f28a77b8869">
 
 ## Một số lỗi hay gặp  
 1. ```

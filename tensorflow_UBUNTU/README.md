@@ -44,17 +44,24 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
   <img src="https://github.com/user-attachments/assets/37603b0a-5f84-4d4e-9f59-a8407ca8bf71">
 
 ## Cài đặt Tensorflow GPU  
-1. Tạo một thư mục trong `Linux` và `Add folder to workspace`  vào Visual studio code
+1. Tạo một thư mục trong `Linux`, ví dụ tạo thư mục `File Code` để lưu các project vào đây  
 
    <img src="https://github.com/user-attachments/assets/f30ae6bf-6e90-4f3c-aa89-7e77e78813cf">
+1.1 Thêm thư mục vào `Vissual studio code` bằng lệnh `Add folder to workspace`
+
+   <img src="https://github.com/user-attachments/assets/289fc812-bedc-4833-8a79-0c9ecce6f83b">
+
+1.2 Mở `Terminal` và chạy các bước dưới đây vào `Terminal` 
+
+   <img src="https://github.com/user-attachments/assets/46c6da1a-94e4-4614-82f4-05c57c9ae84a">
 
 2. Chạy lệnh này `apt install python3.10-venv` để cài đặt thư viện môi trường ảo của Python
 
-   <img src="https://github.com/user-attachments/assets/a23e4eb4-cb7e-4009-ba48-e99f3453880d">
+   <img src="https://github.com/user-attachments/assets/5842ecb4-d3a2-4424-9b0f-5d2c94a968e5">
    
 3. Mở `Terrminal` và chạy lệnh sau `python3 -m venv .Tensorflow_project --prompt="tensorflow_gpu"` để tạo môi trường ảo  
 
-   <img src="https://github.com/user-attachments/assets/80548539-79f2-409d-b815-968145c7002a">
+   <img src="https://github.com/user-attachments/assets/a23e4eb4-cb7e-4009-ba48-e99f3453880d">
 
 4. Sau khi chạy xong thì sẽ xuất hiện 1 thư mục mới có tên `.Tensorflow_project` với cấu trúc như sau:
 

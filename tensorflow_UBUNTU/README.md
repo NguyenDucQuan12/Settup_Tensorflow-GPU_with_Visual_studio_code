@@ -134,4 +134,9 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
    <img src="https://github.com/user-attachments/assets/3de96705-da90-4f0c-b9b4-6d048ac5fa20">
 
+4. `Matplotlib` không hiển thị hình ảnh khi chạy hàm `plt.show` thì cài đặt thêm thư viện `tkinter` do còn thiếu bằng lệnh `sudo apt-get install python3-tk`
+   
+   <img src="https://github.com/user-attachments/assets/0341559c-4e08-4a72-9fd3-ecaa63de1b3b">
+
+
  

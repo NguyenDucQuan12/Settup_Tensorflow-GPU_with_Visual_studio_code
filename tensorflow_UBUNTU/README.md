@@ -55,7 +55,7 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
    <img src="https://github.com/user-attachments/assets/46c6da1a-94e4-4614-82f4-05c57c9ae84a">
 
-2. Chạy lệnh này `apt install python3.10-venv` để cài đặt thư viện môi trường ảo của Python
+2. Chạy lệnh này `sudo apt install python3.10-venv` để cài đặt thư viện môi trường ảo của Python
 
    <img src="https://github.com/user-attachments/assets/5842ecb4-d3a2-4424-9b0f-5d2c94a968e5">
    

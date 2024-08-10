@@ -114,14 +114,14 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
    Sau đó cấu hình lại và cập nhật rồi chạy lại câu lệnh mà mình mong muốn:
    ```
    sudo apt update  
-   sudo apt install python3.10-venv
    ```
    
    <img src="https://github.com/user-attachments/assets/a2f7a78f-e29a-4437-886a-9d366db3f1bd">
    
-2. Nếu gặp lỗi `The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command` thì cần phải chạy lệnh này trước `apt install python3.10-venv` để cài đặt `python 3.10`
+2. Nếu gặp lỗi `The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command`
+    Cần phải chạy lệnh này trước `apt install python3.10-venv` để cài đặt môi trường ảo cảu python 3.10
 
-3. Cài đặt `OpenCV`:
+4. Cài đặt `OpenCV`:
    Đầu tiên chạy lệnh cài đặt opencv `pip install opencv-python`
 
    <img src="https://github.com/user-attachments/assets/eaf38075-0aeb-478b-9a54-91fd8f277a6b">
@@ -134,7 +134,8 @@ Latest Microsoft Visual C++ Redistributable Version: 14.40.33810.0
 
    <img src="https://github.com/user-attachments/assets/3de96705-da90-4f0c-b9b4-6d048ac5fa20">
 
-4. `Matplotlib` không hiển thị hình ảnh khi chạy hàm `plt.show` thì cài đặt thêm thư viện `tkinter` do còn thiếu bằng lệnh `sudo apt-get install python3-tk`
+5. `Matplotlib` không hiển thị hình ảnh khi chạy hàm `plt.show`  
+    Cài đặt thêm thư viện `tkinter` do còn thiếu bằng lệnh `sudo apt-get install python3-tk`
    
    <img src="https://github.com/user-attachments/assets/0341559c-4e08-4a72-9fd3-ecaa63de1b3b">
 
